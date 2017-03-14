@@ -6,7 +6,7 @@ class Store < ActiveRecord::Base
 
   def mens_or_womens_apparel
     if !mens_apparel && !womens_apparel
-        errors.add(:mens_apparel, "Has to be a men's or women's appare, store")
+        errors.add(:mens_apparel, "Has to be a men's or women's apparel store")
     end
   end
 end
