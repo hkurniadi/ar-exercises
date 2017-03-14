@@ -5,4 +5,8 @@ require_relative './exercise_2'
 puts "Exercise 3"
 puts "----------"
 
-# Your code goes here ...
+@store3 = Store.find(3)
+puts "Before destroy #{Store.count}"
+
+@store3.destroy
+puts "After destroy #{Store.count}"
