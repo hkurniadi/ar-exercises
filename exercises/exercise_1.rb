@@ -30,5 +30,31 @@ Store.create({
   updated_at: Time.now
   })
 
+Store.create({
+  name: 'Surrey',
+  annual_revenue: 224000,
+  mens_apparel: false,
+  womens_apparel: true,
+  created_at: Time.now,
+  updated_at: Time.now
+  })
 
+Store.create({
+  name: 'Whistler',
+  annual_revenue: 1900000,
+  mens_apparel: true,
+  womens_apparel: false,
+  created_at: Time.now,
+  updated_at: Time.now
+  })
+
+Store.create({
+  name: 'Yaletown',
+  annual_revenue: 430000,
+  mens_apparel: true,
+  womens_apparel: true,
+  created_at: Time.now,
+  updated_at: Time.now
+  })
+  
 puts "Number of stores #{Store.count}"
