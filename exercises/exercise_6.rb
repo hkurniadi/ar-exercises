@@ -11,7 +11,7 @@ puts "----------"
 @store1.employees.create({
   first_name: "Bob",
   last_name: "Builder",
-  hourly_rate: 10.45,
+  hourly_rate: 45,
   created_at: Time.now,
   updated_at: Time.now
   })
@@ -19,7 +19,7 @@ puts "----------"
 @store1.employees.create({
   first_name: "Alan",
   last_name: "Smith",
-  hourly_rate: 12.0,
+  hourly_rate: 43,
   created_at: Time.now,
   updated_at: Time.now
   })
@@ -27,7 +27,7 @@ puts "----------"
 @store1.employees.create({
   first_name: "Paul",
   last_name: "Scholes",
-  hourly_rate: 20.0,
+  hourly_rate: 41,
   created_at: Time.now,
   updated_at: Time.now
   })
@@ -35,7 +35,7 @@ puts "----------"
 @store2.employees.create({
   first_name: "Lola",
   last_name: "Lloyd",
-  hourly_rate: 11,
+  hourly_rate: 50,
   created_at: Time.now,
   updated_at: Time.now
   })
@@ -43,7 +43,7 @@ puts "----------"
 @store2.employees.create({
   first_name: "Bin",
   last_name: "Bond",
-  hourly_rate: 14.50,
+  hourly_rate: 42,
   created_at: Time.now,
   updated_at: Time.now
   })
@@ -51,7 +51,7 @@ puts "----------"
 @store2.employees.create({
   first_name: "Rolling",
   last_name: "Stone",
-  hourly_rate: 9.75,
+  hourly_rate: 44,
   created_at: Time.now,
   updated_at: Time.now
   })
